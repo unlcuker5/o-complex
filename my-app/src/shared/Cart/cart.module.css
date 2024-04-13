@@ -1,0 +1,72 @@
+.wrapper {
+    border-radius: 15px;
+    width: 708px;
+    padding: 10px;
+    background: #d9d9d9;
+}
+
+.header {
+    font-size: 36px;
+}
+
+.list {
+
+}
+
+.listItem {
+    display: flex;
+    width: 60%;
+}
+
+.name {
+    width: 65%;
+}
+
+.quantity {
+    width: 10%;
+margin-right: 15px;
+margin-left: 15px;
+}
+
+.price {
+width: 25%;
+}
+
+.formWrapper {
+
+}
+
+.input {
+    border-radius: 15px;
+width: 401px;
+height: 68px;
+background: #222;
+}
+
+.button {
+    padding: 12px 57px;
+    border-radius: 15px;
+    font-size: 36px;
+    color: #f0f0f0;
+    background: #222;
+}
+
+@media (max-width: 500px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .name {
+        width: 50%;
+    }
+
+    .input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .formWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}
